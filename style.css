@@ -76,6 +76,34 @@ h2 {
   display: block;
 }
 
+h3 {
+  margin-top: 2rem;
+}
+
+code {
+  background: var(--border);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: var(--border);
+}
+
 footer {
   max-width: var(--max-width);
   margin: 3rem auto 2rem;
