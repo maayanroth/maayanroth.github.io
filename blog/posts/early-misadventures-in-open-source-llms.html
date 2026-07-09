@@ -34,8 +34,8 @@
       I was inspired by Vicki Boykis' recent newsletter issue,
       <a href="https://newsletter.vickiboykis.com/archive/running-local-models-is-good-now/" target="_blank" rel="noopener">Running local models is good now</a>,
       in which she describes her experience successfully getting a local open weight model to
-      serve as her primary agentic coding tool. I loved the idea of getting the benefit of an
-      AI coding assistant without bleeding money to Anthropic. I spent about a day wrestling
+      serve as her primary agentic coding tool. I love the idea of getting the benefit of an
+      AI coding assistant without bleeding money to Anthropic. My first week at RC, I spent about a day wrestling
       with the
       <a href="https://patloeber.com/gemma-4-pi-agent/" target="_blank" rel="noopener">setup tutorial</a>
       that Vicki links to but ran into one yak-shaving problem after another.
@@ -45,14 +45,14 @@
       just that, when I followed the tutorial, I indeed got LM Studio up and running, I
       successfully downloaded the recommended Gemma model from HuggingFace, I hooked it up
       with Pi as my coding harness... And then watched my computer, with its poor sad 8GB of
-      RAM, become completely unresponsive as soon as I started trying to use my new setup. I
-      flipped back to Vicky's post and saw that her computer has 64GB of RAM. Fancy!
+      RAM, become completely unresponsive as soon as I started trying to use my new setup. Flipping
+      back to Vicky's post, I saw that her computer has 64GB of RAM. Fancy!
     </p>
     <p>
       Ok, fine, maybe local models are not in my immediate future. But luckily, Recurse Center
       has a partnership with
       <a href="https://modal.com/" target="_blank" rel="noopener">Modal</a>, where we can get
-      some free credits to run AI projects in their cloud. My new idea was to host an
+      some free credits to run AI projects in their cloud. My next idea was to host an
       inference server on Modal and have Pi, running on my machine, make calls out to that
       server. Modal has a
       <a href="https://modal.com/docs/examples/vllm_inference" target="_blank" rel="noopener">tutorial and example script</a>
@@ -81,7 +81,9 @@
       download it, LM Studio informed me that this model is too large to run successfully on
       my computer. Pat's model is much larger, an obvious non-starter.
     </p>
-    <p>The model that I did semi-successfully run locally was <code>gemma-4-e2b</code>.</p>
+    <p>The model that I did semi-successfully run locally was <code>gemma-4-e2b</code>. Is that a good model?
+    A bad model? If it had not completely frozen my computer, would it have done anything actually 
+  useful? How am I to know?</p>
 
     <table>
       <thead>
