@@ -112,3 +112,11 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+div.rc-scout {
+  max-width: var(--max-width);
+  margin: 0 auto 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
