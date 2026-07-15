@@ -76,6 +76,12 @@ h2 {
   display: block;
 }
 
+.post-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  display: block;
+}
+
 h3 {
   margin-top: 2rem;
 }
